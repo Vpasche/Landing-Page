@@ -71,6 +71,8 @@ a {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 10px;
+    
 }
 
  .header img {
@@ -123,6 +125,7 @@ a {
 
 .box p {
     text-align: center;
+    margin-top: 15px;
 }
 
 .inspiration {
@@ -202,6 +205,40 @@ a {
     justify-self: center;
 }
 
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        text-align: center;
+        }
+
+    .header img {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }    
+
+    .boxes .container {
+        flex-direction: column;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+    
+    .inspiration .container {
+        text-align: center;
+    }
+
+    .foot .cage {
+        max-width: 700px;
+    }
+
+    .foot h4 {
+        font-size: 25px;
+    }
+
+    .foot p {
+        font-size: 15px;
+    }
+}
 
 
 
